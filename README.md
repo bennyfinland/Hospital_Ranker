@@ -14,6 +14,13 @@ Front-end: Jquery+BootStrap
 5. Query result in format as "Rank Numer", "Hospital Name", "State", "Rate" and "Details".
 6. Multiple query results of hospital name are ordered by alphabet in same rank number.
 
+**Main Source Code**
+- data.sql
+- index.php
+- /range/static/css
+- /application/controllers/Hospital.php
+- /application/view
+
 **Others**
 
 With further question or suggestion, please contact chengjingwenn@gmail.com
