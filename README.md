@@ -1,7 +1,6 @@
 # Hospital Ranker [web page See--->](http://115.29.108.74/)
 **Platform**  
 Back-end: PHP framework :CodeIgniter (MVC)+ MySql 
-
 Front-end: Jquery+BootStrap  
 
 **Manual**
