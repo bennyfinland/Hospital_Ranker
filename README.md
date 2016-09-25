@@ -4,8 +4,11 @@ Back-end: PHP framework :CodeIgniter (MVC)+ MySql
 Front-end: Jquery+BootStrap  
 
 **Manual**
-1. The "Search" button is disable when you left "Category" is ==blank==.
-2. The defult value of "Rank" is "==0==" and shows top 3 after click "Search", choose "==-1==" will query all the information. To choose "==100==" shows buttom 3 hospital information. Other number between 1 -100 shows related rank hospital infomation.
+
+1. The "Search" button is disable when you left "Category" is blank.
+
+2. The defult value of "Rank" is "0" and shows top 3 after click "Search", choose "-1" will query all the information. To choose "100" shows buttom 3 hospital information. Other number between 1 -100 shows related rank hospital infomation.
+
 3. The section "State" could be empty.
 4. Input city state in "State" section will query the rank hospital in requested city state in new page. Click "Details" to get more information.
 5. Query result in format as "Rank Numer", "Hospital Name", "State", "Rate" and "Details".
