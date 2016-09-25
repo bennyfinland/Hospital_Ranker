@@ -1,10 +1,6 @@
 # Hospital Ranker [web page See--->](http://115.29.108.74/)
 **Platform**  
-<<<<<<< HEAD
 Back-end: PHP framework :CodeIgniter (MVC)+ MySql  
-=======
-Back-end: PHP framework :CodeIgniter (MVC)+ MySql 
->>>>>>> origin/master
 Front-end: Jquery+BootStrap  
 
 **Manual**
@@ -17,8 +13,4 @@ Front-end: Jquery+BootStrap
 
 **Others**
 
-<<<<<<< HEAD
 With further question or suggestion, please contact chengjingwenn@gmail.com
-=======
-With further question or suggestion, please contact chengjingwenn@gmail.com
->>>>>>> origin/master
