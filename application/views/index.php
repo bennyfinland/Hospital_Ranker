@@ -10,7 +10,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<link rel="icon" href="/static/img/favicon.png" type="image/x-icon" />
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
-	<link href="static/css/rangeSlider.css" rel="stylesheet" />
+	<link href="/static/css/rangeSlider.css" rel="stylesheet" />
 	<style type="text/css">
 	body {
 		background: url(/static/img/index-bg-1.jpg) no-repeat;
@@ -81,7 +81,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	</style>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
-	<script type="text/javascript" src="static/js/rangeSlider.js"></script>
+	<script type="text/javascript" src="/static/js/rangeSlider.js"></script>
 </head>
 <body>
 <div class="bg-warning">This is a temporary interview works, DO NOT use it formally.</div>
@@ -195,6 +195,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </footer>
 <script type="text/javascript">
 $(document).ready(function() {
+	
 	var ui = {
 		search_btn: $("#submit"),
 		catagory_select: $(".category-select"),

@@ -11,6 +11,7 @@ class Hospital extends CI_Controller {
 		{
 			show_error("<a href=\"".$this->config->item('URL')."\">Back to the main page</a>", 500, "Please do not submit illegal parameters");
 		}
+
 		$state_array = explode(",", $state);
 		$range *= 1;
 		
@@ -22,7 +23,7 @@ class Hospital extends CI_Controller {
 		}
 		$this->db->order_by($catagory, 'DESC');
 		$query = $this->db->get('data');
-		$rank_array;
+		$rank_array = [];
 		$rank_array_index = 0;
 		foreach ($query->result() as $row)
 		{
@@ -38,11 +39,12 @@ class Hospital extends CI_Controller {
 		$range_exceed = "none";
 		$range_exceed_hint = "";
 		
-		$this->db->select('hospital_name, state, '.$catagory.', provider_number');
+		$this->db->select('hospital_name, state,'.$catagory.', provider_number');
 		if ($state != "ALL" && count($state_array) > 0)
 		{
 			$this->db->where_in("state", $state_array);
 		}
+
 		if ($range != 0)
 		{
 			if ($range == -1)
